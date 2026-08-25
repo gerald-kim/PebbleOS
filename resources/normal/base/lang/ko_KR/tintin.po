@@ -1,0 +1,31 @@
+# SPDX-FileCopyrightText: 2026 PebbleOS Contributors
+# SPDX-License-Identifier: Apache-2.0
+
+msgid ""
+msgstr ""
+"Project-Id-Version: 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-08-24 00:00+0900\n"
+"Last-Translator: PebbleOS Contributors\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Name: English with Korean Glyphs\n"
+
+# Font-only pack. Keep system and app UI strings in their original English.
+msgid "Settings"
+msgstr ""
+
+msgid "Music"
+msgstr ""
+
+msgid "Notifications"
+msgstr ""
+
+msgid "Alarms"
+msgstr ""
+
+msgid "Watchfaces"
+msgstr ""
