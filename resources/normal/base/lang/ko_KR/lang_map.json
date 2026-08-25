@@ -14,7 +14,10 @@
     },
     {
       "name": "GOTHIC_14_BOLD_EXTENDED",
-      "alias": "GOTHIC_14_EXTENDED"
+      "file": "fonts/Galmuri11-Bold.ttf",
+      "characterList": "korean_codepoints.json",
+      "pixelHeight": 11,
+      "extended": true
     },
     {
       "name": "GOTHIC_18_EXTENDED",
@@ -25,7 +28,10 @@
     },
     {
       "name": "GOTHIC_18_BOLD_EXTENDED",
-      "alias": "GOTHIC_18_EXTENDED"
+      "file": "fonts/Galmuri11-Bold.ttf",
+      "characterList": "korean_codepoints.json",
+      "pixelHeight": 13,
+      "extended": true
     },
     {
       "name": "GOTHIC_24_EXTENDED",
@@ -36,7 +42,10 @@
     },
     {
       "name": "GOTHIC_24_BOLD_EXTENDED",
-      "alias": "GOTHIC_24_EXTENDED"
+      "file": "fonts/Galmuri11-Bold.ttf",
+      "characterList": "korean_codepoints.json",
+      "pixelHeight": 16,
+      "extended": true
     },
     {
       "name": "GOTHIC_28_EXTENDED",
@@ -47,7 +56,10 @@
     },
     {
       "name": "GOTHIC_28_BOLD_EXTENDED",
-      "alias": "GOTHIC_28_EXTENDED"
+      "file": "fonts/Galmuri11-Bold.ttf",
+      "characterList": "korean_codepoints.json",
+      "pixelHeight": 21,
+      "extended": true
     },
     {
       "name": "GOTHIC_36_EXTENDED",
@@ -58,7 +70,10 @@
     },
     {
       "name": "GOTHIC_36_BOLD_EXTENDED",
-      "alias": "GOTHIC_36_EXTENDED"
+      "file": "fonts/Galmuri11-Bold.ttf",
+      "characterList": "korean_codepoints.json",
+      "pixelHeight": 25,
+      "extended": true
     },
     {
       "name": "BITHAM_18_LIGHT_SUBSET_EXTENDED",
