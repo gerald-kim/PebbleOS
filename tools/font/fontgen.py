@@ -474,11 +474,13 @@ class Font:
             if self.number_of_glyphs > self.max_glyphs:
                 break
 
-            if codepoint is WILDCARD_CODEPOINT:
-                raise Exception(
-                    "Wildcard codepoint is used for something else in this font."
-                    "Font {}".format(self.ttf_path)
-                )
+            # U+25AF is reserved for Pebble's missing-glyph entry above. Some
+            # source fonts also contain a real glyph at that codepoint; skip it
+            # so the offset table does not contain two entries for the same
+            # codepoint.
+            if codepoint == WILDCARD_CODEPOINT:
+                codepoint, gindex = self.face.get_next_char(codepoint, gindex)
+                continue
 
             if gindex == 0:
                 raise Exception(
